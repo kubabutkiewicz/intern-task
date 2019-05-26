@@ -4,12 +4,12 @@ Open file index.html and use buttons
 
 ## Buttons functions
 
-*Sort by upvotes - sort posts list by upvotes
-*Sort by number of comments - sort posts by number of comments
-*Sort by score - sort posts by score
-*Sort by creation date - sort by creation date
-*Show best post title - returns post title that have best upvotes to number of comments ratio
-*Show posts from last 24h - it will show posts from last 24h
+* Sort by upvotes - sort posts list by upvotes
+* Sort by number of comments - sort posts by number of comments
+* Sort by score - sort posts by score
+* Sort by creation date - sort by creation date
+* Show best post title - returns post title that have best upvotes to number of comments ratio
+* Show posts from last 24h - it will show posts from last 24h
 
 ## Other functions
 
@@ -44,7 +44,7 @@ npm run test
 
 ## Technologies
 
-*JS
-*HTML
-*SASS
-*JEST
+* JS
+* HTML
+* SASS
+* JEST
