@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zadanie JS</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/css/main.css" />
+  </head>
+  <body>
+    <div id="app" class="app">
+      <header class="header">
+        <button class="btn" id="upvotes-btn">Sort by upvotes</button>
+        <button class="btn" id="num-comments-btn">
+          Sort by number of comments
+        </button>
+        <button class="btn" id="score-btn">Sort by score</button>
+        <button class="btn" id="created-btn">Sort by creation date</button>
+        <button class="btn" id="best-ratio">
+          Show best post title
+        </button>
+        <button class="btn" id="last-day">Show posts from last 24h</button>
+      </header>
+      <ul id="list" class="list"></ul>
+    </div>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  font-family: "Montserrat";
+}
+
+.app {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0;
+  &__post {
+    background-color: #eee;
+    padding: 0 20px;
+  }
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.header {
+  margin-top: 20px;
+}
+.btn {
+  font-family: "Montserrat";
+  padding: 10px 17px;
+  font-size: 12px;
+  background: none;
+  border: 2px solid #333;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  &:focus {
+    outline: none;
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+.best-title {
+  min-width: 300px;
+  grid-column: span 3;
+  text-align: center;
+}
